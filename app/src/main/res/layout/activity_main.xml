@@ -11,8 +11,9 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
+        android:contentDescription="@string/android_cookie_monster"
         android:scaleType="centerCrop"
-        android:src="@drawable/before_cookie" />
+        android:src="@drawable/before_cookie"/>
 
     <TextView
         android:id="@+id/status_text_view"
@@ -21,14 +22,16 @@
         android:layout_marginLeft="16dp"
         android:layout_marginRight="16dp"
         android:layout_marginTop="16dp"
-        android:text="I'm so hungry"
+        android:text="@string/hungry_msg"
         android:textColor="@android:color/white"
-        android:textSize="34sp" />
+        android:textSize="34sp"/>
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_margin="16dp"
-        android:text="EAT COOKIE" />
+        android:onClick="eatCookie"
+        android:text="@string/btn_label"
+        android:textAllCaps="true"/>
 
 </LinearLayout>

@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Cookies</string>
+    <string name="status_msg">I\'m so full</string>
+    <string name="hungry_msg">I\'m so hungry</string>
+    <string name="btn_label">Eat Cookie</string>
+    <string name="android_cookie_monster">Android Cookie Monster</string>
 </resources>
